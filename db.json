@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Test",
+      "email": "test@gmail.com",
+      "password": "test123"
+    },
+    {
+      "id": 2,
+      "username": "Huda",
+      "email": "huda@gmail.com",
+      "password": "huda123"
+    }
+  ],
+  "movies": [
+    {
+      "title": "Batman vs Superman",
+      "description": "DC Movie but quite boring!!",
+      "url": "https://www.imdb.com/title/tt2975590/",
+      "image": "https://www.hdwallpapers.in/download/batman_v_superman_dawn_of_justice-1920x1080.jpg",
+      "id": 1
+    },
+    {
+      "title": "Equalizer 2",
+      "description": "Best Action Movie by Denzel Washington! Trust Me!",
+      "url": "https://www.imdb.com/title/tt3766354/",
+      "image": "https://stmed.net/sites/default/files/the-equalizer-wallpapers-30005-1864817.jpg",
+      "id": 2
+    },
+    {
+      "title": "Hacksaw Ridge",
+      "description": "Best Movie based on true story",
+      "url": "https://www.imdb.com/title/tt2119532/\t",
+      "image": "https://i.vimeocdn.com/video/602267104.jpg?mw=1920&mh=1080",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "title": "Avengers",
+      "description": "Best Marvel Movies you can get!!!",
+      "url": "https://www.imdb.com/title/tt0848228/",
+      "image": "http://www.1zoom.me/big2/629/299788-Sepik.jpg"
+    }
+  ],
+  "studios": [
+    {
+      "id": 1,
+      "nama": "Studio 1",
+      "jumlahKursi": 20,
+      "jumlahBaris": 2
+    },
+    {
+      "id": 2,
+      "nama": "Studio 2",
+      "jumlahKursi": 20,
+      "jumlahBaris": 2
+    },
+    {
+      "id": 3,
+      "nama": "Studio 3",
+      "jumlahKursi": 20,
+      "jumlahBaris": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "movieId": 3,
+      "studioId": 3,
+      "jadwal": "Morning",
+      "totalHarga": 50000
+    },
+    {
+      "userId": 2,
+      "movieId": 1,
+      "studioId": 1,
+      "jadwal": "Morning",
+      "totalHarga": 50000,
+      "id": 2
+    }
+  ],
+  "ordersDetails": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "row": 2,
+      "seat": 4
+    },
+    {
+      "orderId": 2,
+      "row": 2,
+      "seat": 6,
+      "id": 2
+    },
+    {
+      "orderId": 2,
+      "row": 2,
+      "seat": 5,
+      "id": 3
+    }
+  ]
+}
